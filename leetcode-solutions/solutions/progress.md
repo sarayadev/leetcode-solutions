@@ -10,7 +10,10 @@
   - Pattern: Hash Set
   - Learned: Using sets to efficiently detect duplicate values and understand unique value storage.
 
-- [ ] Valid Anagram
+- [x] Valid Anagram
+  - Pattern: Sorting
+  - Learned: Using sorted strings to compare character frequencies and determine if two strings are anagrams.
+
 - [ ] Best Time to Buy and Sell Stock
 - [ ] Valid Parentheses
 
@@ -46,5 +49,14 @@ Key Takeaways:
 - Reinforced understanding of hash-based data structures.
 - Practiced identifying duplicates in O(n) time.
 
+### June 3, 2026
+
+Completed Valid Anagram.
+
+Key Takeaways:
+- Learned how sorting can be used to compare character frequencies.
+- Practiced working with strings and character ordering.
+- Reinforced understanding of how anagrams contain the same characters in different arrangements.
+
 Next Problem:
-- Valid Anagram
+- Best Time to Buy and Sell Stock
