@@ -48,13 +48,13 @@ This repository documents my ongoing practice with data structures, algorithms, 
 
 |------------|---------|
 
-| Easy | 2 |
+| Easy | 3 |
 
 | Medium | 0 |
 
 | Hard | 0 |
 
-| **Total** | **2** |
+| **Total** | **3** |
 
 
 
@@ -66,6 +66,7 @@ This repository documents my ongoing practice with data structures, algorithms, 
 |---|---------|------------|----------|
 | 1 | Two Sum | Easy | Hash Map |
 | 217 | Contains Duplicate | Easy | Hash Set |
+| 242 | Valid Anagram | Easy | Sorting |
 
 
 
