@@ -19,8 +19,14 @@
 
 ## Medium
 
-- [ ] Group Anagrams
-- [ ] Top K Frequent Elements
+- [x] Group Anagrams
+  - Pattern: Hash Map, Sorting
+  - Learned: Using sorted strings as dictionary keys to group related data and organize anagrams efficiently.
+
+- [x] Top K Frequent Elements
+  - Pattern: Hash Map, Bucket Sort
+  - Learned: Using frequency counting and bucket sort to achieve O(n) performance.
+
 - [ ] Product of Array Except Self
 
 ## Hard
@@ -58,5 +64,25 @@ Key Takeaways:
 - Practiced working with strings and character ordering.
 - Reinforced understanding of how anagrams contain the same characters in different arrangements.
 
+### June 4, 2026
+
+Completed Group Anagrams.
+
+Key Takeaways:
+- Learned how hash maps can be used to group related values.
+- Practiced combining sorting with dictionaries to solve problems efficiently.
+- Improved understanding of using transformed data as dictionary keys.
+- Reinforced time complexity analysis involving sorting operations.
+
+### June 5, 2026
+
+Completed Top K Frequent Elements.
+
+Key Takeaways:
+- Learned how to count frequencies using hash maps.
+- Practiced using bucket sort for linear-time solutions.
+- Improved understanding of frequency-based problems.
+- Reinforced O(n) time complexity optimization techniques.
+
 Next Problem:
-- Best Time to Buy and Sell Stock
+- Product of Array Except Self
