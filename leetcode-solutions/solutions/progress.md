@@ -27,7 +27,9 @@
   - Pattern: Hash Map, Bucket Sort
   - Learned: Using frequency counting and bucket sort to achieve O(n) performance.
 
-- [ ] Product of Array Except Self
+- [x] Product of Array Except Self
+  - Pattern: Prefix Product, Suffix Product
+  - Learned: Using left and right cumulative products to solve array problems in O(n) time without division and with constant extra space.
 
 ## Hard
 
@@ -84,5 +86,16 @@ Key Takeaways:
 - Improved understanding of frequency-based problems.
 - Reinforced O(n) time complexity optimization techniques.
 
+### June 6, 2026
+
+Completed Product of Array Except Self.
+
+Key Takeaways:
+- Learned how prefix products store the product of all elements to the left.
+- Learned how suffix products store the product of all elements to the right.
+- Practiced solving array problems without using division.
+- Improved understanding of space optimization techniques.
+- Reinforced the concept of multiple passes through an array while maintaining O(n) time complexity.
+
 Next Problem:
-- Product of Array Except Self
+- Best Time to Buy and Sell Stock
