@@ -34,16 +34,17 @@ This repository documents my ongoing practice with data structures, algorithms, 
 
 | Difficulty | Solved |
 |------------|---------|
-| Easy | 3 |
+| Easy | 4 |
 | Medium | 3 |
 | Hard | 0 |
-| **Total** | **6** |
+| **Total** | **7** |
 
 ## Solutions
 
 | # | Problem | Difficulty | Pattern |
 |---|---------|------------|----------|
 | 1 | Two Sum | Easy | Hash Map |
+| 121 | Best Time to Buy and Sell Stock | Easy | Greedy, One Pass |
 | 217 | Contains Duplicate | Easy | Hash Set |
 | 242 | Valid Anagram | Easy | Sorting |
 | 49 | Group Anagrams | Medium | Hash Map, Sorting |
