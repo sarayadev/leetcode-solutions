@@ -14,7 +14,10 @@
   - Pattern: Sorting
   - Learned: Using sorted strings to compare character frequencies and determine if two strings are anagrams.
 
-- [ ] Best Time to Buy and Sell Stock
+- [x] Best Time to Buy and Sell Stock
+  - Pattern: Greedy, One Pass
+  - Learned: Tracking the lowest price seen so far and calculating the maximum profit at each step allows the problem to be solved in O(n) time.
+
 - [ ] Valid Parentheses
 
 ## Medium
@@ -97,5 +100,16 @@ Key Takeaways:
 - Improved understanding of space optimization techniques.
 - Reinforced the concept of multiple passes through an array while maintaining O(n) time complexity.
 
+### June 7, 2026
+
+Completed Best Time to Buy and Sell Stock.
+
+Key Takeaways:
+- Learned how greedy algorithms make locally optimal decisions.
+- Practiced tracking a running minimum value while iterating through an array.
+- Improved understanding of profit calculations using previous values.
+- Reinforced solving array problems in O(n) time with O(1) extra space.
+- Learned how to identify opportunities for optimization without nested loops.
+
 Next Problem:
-- Best Time to Buy and Sell Stock
+- Valid Parentheses
