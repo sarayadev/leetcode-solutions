@@ -18,6 +18,14 @@
   - Pattern: Greedy, One Pass
   - Learned: Tracking the lowest price seen so far and calculating the maximum profit at each step allows the problem to be solved in O(n) time.
 
+- [x] Running Sum of 1D Array
+  - Pattern: Prefix Sum
+  - Learned: Building cumulative sums while traversing an array and understanding how previous values can be reused efficiently.
+
+- [x] Find Pivot Index
+  - Pattern: Prefix Sum
+  - Learned: Using running totals to compare left and right sums without repeatedly recalculating subarrays.
+
 - [ ] Valid Parentheses
 
 ## Medium
@@ -110,6 +118,26 @@ Key Takeaways:
 - Improved understanding of profit calculations using previous values.
 - Reinforced solving array problems in O(n) time with O(1) extra space.
 - Learned how to identify opportunities for optimization without nested loops.
+
+### June 8, 2026
+
+Completed Running Sum of 1D Array.
+
+Key Takeaways:
+- Learned how prefix sums accumulate values across an array.
+- Practiced updating values in-place for space efficiency.
+- Improved understanding of cumulative calculations.
+- Reinforced one-pass array traversal techniques.
+
+### June 9, 2026
+
+Completed Find Pivot Index.
+
+Key Takeaways:
+- Learned how total sums and running sums can be combined to avoid nested loops.
+- Practiced comparing left and right partitions of an array efficiently.
+- Improved understanding of prefix sum applications.
+- Reinforced solving array problems in O(n) time with O(1) extra space.
 
 Next Problem:
 - Valid Parentheses
