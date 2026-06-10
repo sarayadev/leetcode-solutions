@@ -26,6 +26,10 @@
   - Pattern: Prefix Sum
   - Learned: Using running totals to compare left and right sums without repeatedly recalculating subarrays.
 
+- [x] Move Zeroes
+  - Pattern: Two Pointers, In-place
+  - Learned: Moving all non-zero elements forward while maintaining order and filling remaining spaces with zeros.
+
 - [ ] Valid Parentheses
 
 ## Medium
@@ -51,7 +55,6 @@
 ## Notes
 
 ### June 1, 2026
-
 Completed Two Sum.
 
 Key Takeaways:
@@ -60,7 +63,6 @@ Key Takeaways:
 - Practiced identifying complements while iterating through an array.
 
 ### June 2, 2026
-
 Completed Contains Duplicate.
 
 Key Takeaways:
@@ -69,7 +71,6 @@ Key Takeaways:
 - Practiced identifying duplicates in O(n) time.
 
 ### June 3, 2026
-
 Completed Valid Anagram.
 
 Key Takeaways:
@@ -78,7 +79,6 @@ Key Takeaways:
 - Reinforced understanding of how anagrams contain the same characters in different arrangements.
 
 ### June 4, 2026
-
 Completed Group Anagrams.
 
 Key Takeaways:
@@ -88,7 +88,6 @@ Key Takeaways:
 - Reinforced time complexity analysis involving sorting operations.
 
 ### June 5, 2026
-
 Completed Top K Frequent Elements.
 
 Key Takeaways:
@@ -98,7 +97,6 @@ Key Takeaways:
 - Reinforced O(n) time complexity optimization techniques.
 
 ### June 6, 2026
-
 Completed Product of Array Except Self.
 
 Key Takeaways:
@@ -109,7 +107,6 @@ Key Takeaways:
 - Reinforced the concept of multiple passes through an array while maintaining O(n) time complexity.
 
 ### June 7, 2026
-
 Completed Best Time to Buy and Sell Stock.
 
 Key Takeaways:
@@ -120,7 +117,6 @@ Key Takeaways:
 - Learned how to identify opportunities for optimization without nested loops.
 
 ### June 8, 2026
-
 Completed Running Sum of 1D Array.
 
 Key Takeaways:
@@ -130,7 +126,6 @@ Key Takeaways:
 - Reinforced one-pass array traversal techniques.
 
 ### June 9, 2026
-
 Completed Find Pivot Index.
 
 Key Takeaways:
@@ -139,5 +134,14 @@ Key Takeaways:
 - Improved understanding of prefix sum applications.
 - Reinforced solving array problems in O(n) time with O(1) extra space.
 
+### June 10, 2026
+Completed Move Zeroes.
+
+Key Takeaways:
+- Learned how two pointers can separate zero and non-zero elements efficiently.
+- Practiced in-place array manipulation without extra memory.
+- Improved understanding of maintaining relative order while rearranging elements.
+- Reinforced O(n) time complexity with O(1) space solutions.
+  
 Next Problem:
 - Valid Parentheses
