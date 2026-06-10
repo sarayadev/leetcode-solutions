@@ -9,19 +9,12 @@ This repository documents my ongoing practice with data structures, algorithms, 
 - Python
 
 - Data Structures
-
   - Arrays
-
   - Hash Maps
- 
   - Hash Sets
-
   - Stacks
-
   - Queues
-
   - Trees
-
   - Graphs
 
 - Algorithm Design
@@ -34,10 +27,10 @@ This repository documents my ongoing practice with data structures, algorithms, 
 
 | Difficulty | Solved |
 |------------|---------|
-| Easy | 4 |
+| Easy | 6 |
 | Medium | 3 |
 | Hard | 0 |
-| **Total** | **7** |
+| **Total** | **9** |
 
 ## Solutions
 
@@ -47,6 +40,8 @@ This repository documents my ongoing practice with data structures, algorithms, 
 | 121 | Best Time to Buy and Sell Stock | Easy | Greedy, One Pass |
 | 217 | Contains Duplicate | Easy | Hash Set |
 | 242 | Valid Anagram | Easy | Sorting |
+| 1480 | Running Sum of 1D Array | Easy | Prefix Sum |
+| 724 | Find Pivot Index | Easy | Prefix Sum |
 | 49 | Group Anagrams | Medium | Hash Map, Sorting |
 | 347 | Top K Frequent Elements | Medium | Hash Map, Bucket Sort |
 | 238 | Product of Array Except Self | Medium | Prefix Product, Suffix Product |
@@ -60,3 +55,17 @@ This repository documents my ongoing practice with data structures, algorithms, 
 - Develop efficient problem-solving strategies
 
 - Prepare for technical interviews
+
+## Current Focus
+
+Currently working through foundational patterns including:
+
+- Hash Maps
+- Hash Sets
+- Sorting
+- Prefix Sums
+- Greedy Algorithms
+- Prefix and Suffix Products
+
+Next Pattern:
+- Stacks (Valid Parentheses)
