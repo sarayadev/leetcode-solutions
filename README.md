@@ -12,6 +12,7 @@ This repository documents my ongoing practice with data structures, algorithms, 
   - Arrays
   - Hash Maps
   - Hash Sets
+  - Strings
   - Stacks
   - Queues
   - Trees
@@ -27,10 +28,10 @@ This repository documents my ongoing practice with data structures, algorithms, 
 
 | Difficulty | Solved |
 |------------|---------|
-| Easy | 7 |
-| Medium | 3 |
+| Easy | 8 |
+| Medium | 4 |
 | Hard | 0 |
-| **Total** | **10** |
+| **Total** | **12** |
 
 ## Solutions
 
@@ -38,14 +39,16 @@ This repository documents my ongoing practice with data structures, algorithms, 
 |---|---------|------------|----------|
 | 1 | Two Sum | Easy | Hash Map |
 | 121 | Best Time to Buy and Sell Stock | Easy | Greedy, One Pass |
+| 125 | Valid Palindrome | Easy | String Manipulation, Two Pointers |
 | 217 | Contains Duplicate | Easy | Hash Set |
 | 242 | Valid Anagram | Easy | Sorting |
-| 1480 | Running Sum of 1D Array | Easy | Prefix Sum |
-| 724 | Find Pivot Index | Easy | Prefix Sum |
 | 283 | Move Zeroes | Easy | Two Pointers, In-place |
+| 724 | Find Pivot Index | Easy | Prefix Sum |
+| 1480 | Running Sum of 1D Array | Easy | Prefix Sum |
+| 3 | Longest Substring Without Repeating Characters | Medium | Sliding Window, Hash Set |
 | 49 | Group Anagrams | Medium | Hash Map, Sorting |
-| 347 | Top K Frequent Elements | Medium | Hash Map, Bucket Sort |
 | 238 | Product of Array Except Self | Medium | Prefix Product, Suffix Product |
+| 347 | Top K Frequent Elements | Medium | Hash Map, Bucket Sort |
 
 ## Learning Objectives
 
@@ -66,6 +69,8 @@ Currently working through foundational patterns including:
 - Sorting
 - Prefix Sums
 - Greedy Algorithms
+- Two Pointers
+- Sliding Window
 - Prefix and Suffix Products
 
 Next Pattern:
