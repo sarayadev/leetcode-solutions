@@ -28,7 +28,11 @@
 
 - [x] Move Zeroes
   - Pattern: Two Pointers, In-place
-  - Learned: Moving all non-zero elements forward while maintaining order and filling remaining spaces with zeros.
+  - Learned: Moving all non-zero elements forward while maintaining the relative order of the non-zero elements and filling remaining positions with zeros.
+
+- [x] Valid Palindrome
+  - Pattern: String Manipulation, Two Pointers
+  - Learned: Cleaning strings by removing non-alphanumeric characters, converting characters to lowercase, and comparing the cleaned string to its reverse to verify palindrome properties.
 
 - [ ] Valid Parentheses
 
@@ -45,6 +49,10 @@
 - [x] Product of Array Except Self
   - Pattern: Prefix Product, Suffix Product
   - Learned: Using left and right cumulative products to solve array problems in O(n) time without division and with constant extra space.
+
+- [x] Longest Substring Without Repeating Characters
+  - Pattern: Sliding Window, Hash Set
+  - Learned: Maintaining a dynamic window of unique characters while efficiently removing duplicates and tracking the maximum substring length.
 
 ## Hard
 
@@ -142,6 +150,22 @@ Key Takeaways:
 - Practiced in-place array manipulation without extra memory.
 - Improved understanding of maintaining relative order while rearranging elements.
 - Reinforced O(n) time complexity with O(1) space solutions.
-  
-Next Problem:
-- Valid Parentheses
+
+### June 11, 2026
+Completed Valid Palindrome.
+
+Key Takeaways:
+- Learned how to clean and normalize strings before processing.
+- Practiced filtering alphanumeric characters and converting characters to lowercase.
+- Improved understanding of palindrome checking using string reversal.
+- Reinforced string manipulation techniques and character validation.
+
+### June 12, 2026
+Completed Longest Substring Without Repeating Characters.
+
+Key Takeaways:
+- Learned how the sliding window pattern dynamically expands and shrinks based on conditions.
+- Practiced using a hash set to maintain unique characters within a window.
+- Improved understanding of two-pointer techniques for substring problems.
+- Reinforced O(n) solutions by ensuring each character is processed efficiently.
+- Learned how to handle duplicates without restarting the search.
