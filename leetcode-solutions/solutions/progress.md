@@ -34,6 +34,10 @@
   - Pattern: String Manipulation, Two Pointers
   - Learned: Cleaning strings by removing non-alphanumeric characters, converting characters to lowercase, and comparing the cleaned string to its reverse to verify palindrome properties.
 
+- [x] Roman to Integer
+  - Pattern: Hash Map, String Traversal
+  - Learned: Using a dictionary to map Roman numerals to integer values and handling subtraction cases by comparing adjacent characters while traversing the string.
+
 - [ ] Valid Parentheses
 
 ## Medium
@@ -57,6 +61,18 @@
 ## Hard
 
 - [ ] None yet
+
+---
+
+## Progress Summary
+
+Easy: 10 completed
+
+Medium: 4 completed
+
+Hard: 0 completed
+
+Total Problems Solved: 14
 
 ---
 
@@ -169,3 +185,13 @@ Key Takeaways:
 - Improved understanding of two-pointer techniques for substring problems.
 - Reinforced O(n) solutions by ensuring each character is processed efficiently.
 - Learned how to handle duplicates without restarting the search.
+
+### June 13, 2026
+Completed Roman to Integer.
+
+Key Takeaways:
+- Learned how to use a hash map (dictionary) to store Roman numeral values.
+- Practiced traversing a string with a pointer.
+- Improved understanding of handling special subtraction cases such as IV, IX, XL, XC, CD, and CM.
+- Reinforced comparing adjacent characters to determine whether to add or subtract values.
+- Practiced solving string-processing problems in O(n) time with O(1) extra space.
