@@ -28,16 +28,17 @@ This repository documents my ongoing practice with data structures, algorithms, 
 
 | Difficulty | Solved |
 |------------|---------|
-| Easy | 8 |
+| Easy | 9 |
 | Medium | 4 |
 | Hard | 0 |
-| **Total** | **12** |
+| **Total** | **13** |
 
 ## Solutions
 
 | # | Problem | Difficulty | Pattern |
 |---|---------|------------|----------|
 | 1 | Two Sum | Easy | Hash Map |
+| 13 | Roman to Integer | Easy | Hash Map, String Traversal |
 | 121 | Best Time to Buy and Sell Stock | Easy | Greedy, One Pass |
 | 125 | Valid Palindrome | Easy | String Manipulation, Two Pointers |
 | 217 | Contains Duplicate | Easy | Hash Set |
@@ -72,6 +73,7 @@ Currently working through foundational patterns including:
 - Two Pointers
 - Sliding Window
 - Prefix and Suffix Products
+- String Traversal
 
 Next Pattern:
 - Stacks (Valid Parentheses)
