@@ -38,6 +38,10 @@
   - Pattern: Hash Map, String Traversal
   - Learned: Using a dictionary to map Roman numerals to integer values and handling subtraction cases by comparing adjacent characters while traversing the string.
 
+- [x] Longest Common Prefix
+  - Pattern: String Traversal, Prefix Matching
+  - Learned: Using the first string as a reference prefix and progressively shortening it until it matches the beginning of every string in the array.
+
 - [ ] Valid Parentheses
 
 ## Medium
@@ -195,3 +199,13 @@ Key Takeaways:
 - Improved understanding of handling special subtraction cases such as IV, IX, XL, XC, CD, and CM.
 - Reinforced comparing adjacent characters to determine whether to add or subtract values.
 - Practiced solving string-processing problems in O(n) time with O(1) extra space.
+
+### June 14, 2026
+Completed Longest Common Prefix.
+
+Key Takeaways:
+- Learned how to compare multiple strings using a shared prefix.
+- Practiced progressively shortening a candidate prefix until it matches all strings.
+- Improved understanding of string traversal and prefix-based algorithms.
+- Reinforced efficient string comparison techniques without unnecessary extra space.
+- Practiced solving string problems in O(S) time, where S is the total number of characters across all strings.
