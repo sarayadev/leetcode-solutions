@@ -28,10 +28,10 @@ This repository documents my ongoing practice with data structures, algorithms, 
 
 | Difficulty | Solved |
 |------------|---------|
-| Easy | 10 |
+| Easy | 11 |
 | Medium | 4 |
 | Hard | 0 |
-| **Total** | **14** |
+| **Total** | **15** |
 
 ## Solutions
 
@@ -45,6 +45,7 @@ This repository documents my ongoing practice with data structures, algorithms, 
 | 217 | Contains Duplicate | Easy | Hash Set |
 | 242 | Valid Anagram | Easy | Sorting |
 | 283 | Move Zeroes | Easy | Two Pointers, In-place |
+| 392 | Is Subsequence | Easy | Two Pointers |
 | 724 | Find Pivot Index | Easy | Prefix Sum |
 | 1480 | Running Sum of 1D Array | Easy | Prefix Sum |
 | 3 | Longest Substring Without Repeating Characters | Medium | Sliding Window, Hash Set |
