@@ -29,9 +29,9 @@ This repository documents my ongoing practice with data structures, algorithms, 
 | Difficulty | Solved |
 |------------|---------|
 | Easy | 11 |
-| Medium | 4 |
+| Medium | 5 |
 | Hard | 0 |
-| **Total** | **15** |
+| **Total** | **16** |
 
 ## Solutions
 
@@ -49,6 +49,7 @@ This repository documents my ongoing practice with data structures, algorithms, 
 | 724 | Find Pivot Index | Easy | Prefix Sum |
 | 1480 | Running Sum of 1D Array | Easy | Prefix Sum |
 | 3 | Longest Substring Without Repeating Characters | Medium | Sliding Window, Hash Set |
+| 11 | Container With Most Water | Medium | Two Pointers |
 | 49 | Group Anagrams | Medium | Hash Map, Sorting |
 | 238 | Product of Array Except Self | Medium | Prefix Product, Suffix Product |
 | 347 | Top K Frequent Elements | Medium | Hash Map, Bucket Sort |
