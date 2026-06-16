@@ -66,6 +66,10 @@
   - Pattern: Sliding Window, Hash Set
   - Learned: Maintaining a dynamic window of unique characters while efficiently removing duplicates and tracking the maximum substring length.
 
+- [x] Container With Most Water
+  - Pattern: Two Pointers
+  - Learned: Starting with the widest container and moving the shorter pointer inward efficiently finds the maximum area in O(n) time.
+
 ## Hard
 
 - [ ] None yet
@@ -76,11 +80,15 @@
 
 Easy: 11 completed
 
-Medium: 4 completed
+Medium: 5 completed
 
 Hard: 0 completed
 
-Total Problems Solved: 15
+Total Problems Solved: 16
+
+---
+
+# Notes
 
 ## June 1, 2026
 Completed Two Sum.
@@ -234,3 +242,14 @@ Completed Is Subsequence.
 - Improved understanding of subsequences and ordered character matching.
 - Reinforced solving string problems in O(n) time with O(1) extra space.
 - Strengthened understanding of the Two Pointers pattern for string traversal problems.
+
+## June 16, 2026
+Completed Container With Most Water.
+
+### Key Takeaways
+
+- Learned how the Two Pointers pattern can reduce a brute-force O(n²) solution to O(n).
+- Practiced calculating area using width × minimum height.
+- Improved understanding of why moving the shorter pointer is optimal.
+- Reinforced greedy decision-making while traversing an array.
+- Strengthened problem-solving skills involving maximizing values under constraints.
