@@ -69,7 +69,10 @@
 - [x] Container With Most Water
   - Pattern: Two Pointers
   - Learned: Starting with the widest container and moving the shorter pointer inward efficiently finds the maximum area in O(n) time.
-
+     
+ - [x] 3Sum
+  - Pattern: Sorting, Two Pointers
+  - Learned: Sorting enables efficient two-pointer scanning for triplets. Avoiding duplicates is key to preventing repeated results.
 ## Hard
 
 - [ ] None yet
@@ -80,11 +83,11 @@
 
 Easy: 11 completed
 
-Medium: 5 completed
+Medium: 6 completed
 
 Hard: 0 completed
 
-Total Problems Solved: 16
+Total Problems Solved: 17
 
 ---
 
@@ -253,3 +256,12 @@ Completed Container With Most Water.
 - Improved understanding of why moving the shorter pointer is optimal.
 - Reinforced greedy decision-making while traversing an array.
 - Strengthened problem-solving skills involving maximizing values under constraints.
+
+## June 17, 2026
+Completed 3Sum.
+
+### Key Takeaways
+- Learned how sorting reduces brute force complexity.
+- Used two pointers to find triplets summing to zero.
+- Practiced duplicate skipping to avoid repeated results.
+- Extended two-pointer technique from pairs to triplets.
