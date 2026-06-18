@@ -32,47 +32,56 @@
 
 - [x] Valid Palindrome
   - Pattern: String Manipulation, Two Pointers
-  - Learned: Cleaning strings by removing non-alphanumeric characters, converting characters to lowercase, and comparing the cleaned string to its reverse to verify palindrome properties.
+  - Learned: Cleaning strings by removing non-alphanumeric characters, converting characters to lowercase, and comparing the cleaned string to its reverse.
 
 - [x] Roman to Integer
   - Pattern: Hash Map, String Traversal
-  - Learned: Using a dictionary to map Roman numerals to integer values and handling subtraction cases by comparing adjacent characters while traversing the string.
+  - Learned: Using a dictionary to map Roman numerals and handling subtraction cases by comparing adjacent characters.
 
 - [x] Longest Common Prefix
   - Pattern: String Traversal, Prefix Matching
-  - Learned: Using the first string as a reference prefix and progressively shortening it until it matches the beginning of every string in the array.
+  - Learned: Using the first string as a reference prefix and shrinking it until it matches all strings.
 
 - [x] Is Subsequence
   - Pattern: Two Pointers
-  - Learned: Using two pointers to efficiently determine whether one string appears within another while maintaining character order.
+  - Learned: Using two pointers to check if one string appears in another while maintaining order.
 
 - [ ] Valid Parentheses
+
+---
 
 ## Medium
 
 - [x] Group Anagrams
   - Pattern: Hash Map, Sorting
-  - Learned: Using sorted strings as dictionary keys to group related data and organize anagrams efficiently.
+  - Learned: Using sorted strings as keys to group anagrams efficiently.
 
 - [x] Top K Frequent Elements
   - Pattern: Hash Map, Bucket Sort
-  - Learned: Using frequency counting and bucket sort to achieve O(n) performance.
+  - Learned: Frequency counting combined with bucket sort to achieve linear-time grouping.
 
 - [x] Product of Array Except Self
   - Pattern: Prefix Product, Suffix Product
-  - Learned: Using left and right cumulative products to solve array problems in O(n) time without division and with constant extra space.
+  - Learned: Using left and right cumulative products to compute results without division in O(n) time.
 
 - [x] Longest Substring Without Repeating Characters
   - Pattern: Sliding Window, Hash Set
-  - Learned: Maintaining a dynamic window of unique characters while efficiently removing duplicates and tracking the maximum substring length.
+  - Learned: Maintaining a dynamic window of unique characters while tracking maximum length efficiently.
 
 - [x] Container With Most Water
   - Pattern: Two Pointers
-  - Learned: Starting with the widest container and moving the shorter pointer inward efficiently finds the maximum area in O(n) time.
-     
- - [x] 3Sum
+  - Learned: Using two pointers from both ends and moving the shorter line inward to maximize area in O(n).
+
+- [x] 3Sum
   - Pattern: Sorting, Two Pointers
   - Learned: Sorting enables efficient two-pointer scanning for triplets. Avoiding duplicates is key to preventing repeated results.
+
+- [x] Permutation in String
+  - Pattern: Sliding Window, Hash Map
+  - Learned: Using a fixed-size sliding window and character frequency counting to efficiently detect whether a permutation of one string exists within another.
+
+---
+
 ## Hard
 
 - [ ] None yet
@@ -81,13 +90,11 @@
 
 # Progress Summary
 
-Easy: 11 completed
+Easy: 11 completed 
+Medium: 7 completed 
+Hard: 0 completed 
 
-Medium: 6 completed
-
-Hard: 0 completed
-
-Total Problems Solved: 17
+Total Problems Solved: 18 
 
 ---
 
@@ -97,165 +104,113 @@ Total Problems Solved: 17
 Completed Two Sum.
 
 ### Key Takeaways
-
-- Learned how hash maps can reduce time complexity from O(n²) to O(n).
-- Improved understanding of dictionary lookups.
-- Practiced identifying complements while iterating through an array.
+- Learned how hash maps reduce O(n²) to O(n).
+- Practiced complement-based searching.
 
 ## June 2, 2026
 Completed Contains Duplicate.
 
 ### Key Takeaways
-
-- Learned how sets automatically remove duplicate values.
-- Reinforced understanding of hash-based data structures.
-- Practiced identifying duplicates in O(n) time.
+- Learned how sets store unique values.
+- Improved duplicate detection in O(n).
 
 ## June 3, 2026
 Completed Valid Anagram.
 
 ### Key Takeaways
-
-- Learned how sorting can be used to compare character frequencies.
-- Practiced working with strings and character ordering.
-- Reinforced understanding of how anagrams contain the same characters in different arrangements.
+- Learned sorting-based string comparison.
+- Reinforced frequency equivalence in anagrams.
 
 ## June 4, 2026
 Completed Group Anagrams.
 
 ### Key Takeaways
-
-- Learned how hash maps can be used to group related values.
-- Practiced combining sorting with dictionaries to solve problems efficiently.
-- Improved understanding of using transformed data as dictionary keys.
-- Reinforced time complexity analysis involving sorting operations.
+- Learned grouping with hash maps.
+- Used sorted strings as dictionary keys.
 
 ## June 5, 2026
 Completed Top K Frequent Elements.
 
 ### Key Takeaways
-
-- Learned how to count frequencies using hash maps.
-- Practiced using bucket sort for linear-time solutions.
-- Improved understanding of frequency-based problems.
-- Reinforced O(n) time complexity optimization techniques.
+- Learned frequency counting with hash maps.
+- Used bucket sort for O(n) grouping.
 
 ## June 6, 2026
 Completed Product of Array Except Self.
 
 ### Key Takeaways
-
-- Learned how prefix products store the product of all elements to the left.
-- Learned how suffix products store the product of all elements to the right.
-- Practiced solving array problems without using division.
-- Improved understanding of space optimization techniques.
-- Reinforced the concept of multiple passes through an array while maintaining O(n) time complexity.
+- Learned prefix and suffix product arrays.
+- Solved without division in O(n).
 
 ## June 7, 2026
 Completed Best Time to Buy and Sell Stock.
 
 ### Key Takeaways
-
-- Learned how greedy algorithms make locally optimal decisions.
-- Practiced tracking a running minimum value while iterating through an array.
-- Improved understanding of profit calculations using previous values.
-- Reinforced solving array problems in O(n) time with O(1) extra space.
-- Learned how to identify opportunities for optimization without nested loops.
+- Learned greedy tracking of minimum price.
+- Improved single-pass optimization.
 
 ## June 8, 2026
 Completed Running Sum of 1D Array.
 
 ### Key Takeaways
-
-- Learned how prefix sums accumulate values across an array.
-- Practiced updating values in-place for space efficiency.
-- Improved understanding of cumulative calculations.
-- Reinforced one-pass array traversal techniques.
+- Learned prefix sums.
+- Practiced in-place array updates.
 
 ## June 9, 2026
 Completed Find Pivot Index.
 
 ### Key Takeaways
-
-- Learned how total sums and running sums can be combined to avoid nested loops.
-- Practiced comparing left and right partitions of an array efficiently.
-- Improved understanding of prefix sum applications.
-- Reinforced solving array problems in O(n) time with O(1) extra space.
+- Learned prefix sum partitioning.
+- Compared left vs right sums efficiently.
 
 ## June 10, 2026
 Completed Move Zeroes.
 
 ### Key Takeaways
-
-- Learned how two pointers can separate zero and non-zero elements efficiently.
-- Practiced in-place array manipulation without extra memory.
-- Improved understanding of maintaining relative order while rearranging elements.
-- Reinforced O(n) time complexity with O(1) space solutions.
+- Learned two-pointer in-place rearrangement.
+- Maintained relative order of elements.
 
 ## June 11, 2026
 Completed Valid Palindrome.
 
 ### Key Takeaways
-
-- Learned how to clean and normalize strings before processing.
-- Practiced filtering alphanumeric characters and converting characters to lowercase.
-- Improved understanding of palindrome checking using string reversal.
-- Reinforced string manipulation techniques and character validation.
+- Learned string cleaning and normalization.
+- Used two pointers for comparison.
 
 ## June 12, 2026
 Completed Longest Substring Without Repeating Characters.
 
 ### Key Takeaways
-
-- Learned how the sliding window pattern dynamically expands and shrinks based on conditions.
-- Practiced using a hash set to maintain unique characters within a window.
-- Improved understanding of two-pointer techniques for substring problems.
-- Reinforced O(n) solutions by ensuring each character is processed efficiently.
-- Learned how to handle duplicates without restarting the search.
+- Learned sliding window technique.
+- Maintained unique character window.
 
 ## June 13, 2026
 Completed Roman to Integer.
 
 ### Key Takeaways
-
-- Learned how to use a hash map (dictionary) to store Roman numeral values.
-- Practiced traversing a string with a pointer.
-- Improved understanding of handling special subtraction cases such as IV, IX, XL, XC, CD, and CM.
-- Reinforced comparing adjacent characters to determine whether to add or subtract values.
-- Practiced solving string-processing problems in O(n) time with O(1) extra space.
+- Learned hash map mapping for numerals.
+- Handled subtraction rules in traversal.
 
 ## June 14, 2026
 Completed Longest Common Prefix.
 
 ### Key Takeaways
-
-- Learned how to compare multiple strings using a shared prefix.
-- Practiced progressively shortening a candidate prefix until it matches all strings.
-- Improved understanding of string traversal and prefix-based algorithms.
-- Reinforced efficient string comparison techniques without unnecessary extra space.
-- Practiced solving string problems in O(S) time, where S is the total number of characters across all strings.
+- Learned prefix trimming across strings.
+- Compared multiple strings efficiently.
 
 ## June 15, 2026
 Completed Is Subsequence.
 
 ### Key Takeaways
-
-- Learned how to use two pointers to traverse two strings simultaneously.
-- Practiced matching characters while maintaining their relative order.
-- Improved understanding of subsequences and ordered character matching.
-- Reinforced solving string problems in O(n) time with O(1) extra space.
-- Strengthened understanding of the Two Pointers pattern for string traversal problems.
+- Learned ordered two-pointer matching.
+- Checked subsequence relationships.
 
 ## June 16, 2026
 Completed Container With Most Water.
 
 ### Key Takeaways
-
-- Learned how the Two Pointers pattern can reduce a brute-force O(n²) solution to O(n).
-- Practiced calculating area using width × minimum height.
-- Improved understanding of why moving the shorter pointer is optimal.
-- Reinforced greedy decision-making while traversing an array.
-- Strengthened problem-solving skills involving maximizing values under constraints.
+- Learned greedy two-pointer optimization.
+- Maximized area by moving shorter pointer.
 
 ## June 17, 2026
 Completed 3Sum.
@@ -265,3 +220,58 @@ Completed 3Sum.
 - Used two pointers to find triplets summing to zero.
 - Practiced duplicate skipping to avoid repeated results.
 - Extended two-pointer technique from pairs to triplets.
+
+## June 18, 2026
+Completed Permutation in String.
+
+### Key Takeaways
+- Learned fixed-size sliding window techniques.
+- Practiced character frequency counting with hash maps.
+- Learned how to update a window incrementally instead of rebuilding counts.
+- Reinforced anagram and permutation detection concepts.
+- Improved understanding of sliding window optimization for string problems.
+
+---
+
+# Pattern Coverage
+
+## Hash Map
+- Two Sum
+- Roman to Integer
+- Group Anagrams
+- Top K Frequent Elements
+- Permutation in String
+
+## Hash Set
+- Contains Duplicate
+- Longest Substring Without Repeating Characters
+
+## Prefix Sum
+- Running Sum of 1D Array
+- Find Pivot Index
+
+## Two Pointers
+- Move Zeroes
+- Valid Palindrome
+- Is Subsequence
+- Container With Most Water
+- 3Sum
+
+## Sliding Window
+- Longest Substring Without Repeating Characters
+- Permutation in String
+
+## Sorting
+- Valid Anagram
+- Group Anagrams
+- 3Sum
+
+## Greedy
+- Best Time to Buy and Sell Stock
+
+## Prefix/Suffix
+- Product of Array Except Self
+
+## String Traversal
+- Roman to Integer
+- Longest Common Prefix
