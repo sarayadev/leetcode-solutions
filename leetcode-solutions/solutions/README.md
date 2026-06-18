@@ -29,9 +29,9 @@ This repository documents my ongoing practice with data structures, algorithms, 
 | Difficulty | Solved |
 |------------|---------|
 | Easy | 11 |
-| Medium | 6 |
+| Medium | 7 |
 | Hard | 0 |
-| **Total** | **17** |
+| **Total** | **18** |
 
 ## Solutions
 
@@ -54,6 +54,7 @@ This repository documents my ongoing practice with data structures, algorithms, 
 | 49 | Group Anagrams | Medium | Hash Map, Sorting |
 | 238 | Product of Array Except Self | Medium | Prefix Product, Suffix Product |
 | 347 | Top K Frequent Elements | Medium | Hash Map, Bucket Sort |
+| 567 | Permutation in String | Medium | Sliding Window, Hash Map |
 
 ## Learning Objectives
 
