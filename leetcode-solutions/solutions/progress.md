@@ -80,6 +80,10 @@
   - Pattern: Sliding Window, Hash Map
   - Learned: Using a fixed-size sliding window and character frequency counting to efficiently detect whether a permutation of one string exists within another.
 
+- [x] Minimum Size Subarray Sum
+  - Pattern: Sliding Window
+  - Learned: Using a variable-size sliding window to find the shortest contiguous subarray that satisfies a target sum while maintaining a running total efficiently.
+
 ---
 
 ## Hard
@@ -90,11 +94,11 @@
 
 # Progress Summary
 
-Easy: 11 completed 
-Medium: 7 completed 
-Hard: 0 completed 
+Easy: 11 completed  
+Medium: 8 completed  
+Hard: 0 completed  
 
-Total Problems Solved: 18 
+Total Problems Solved: 19
 
 ---
 
@@ -231,6 +235,16 @@ Completed Permutation in String.
 - Reinforced anagram and permutation detection concepts.
 - Improved understanding of sliding window optimization for string problems.
 
+## June 19, 2026
+Completed Minimum Size Subarray Sum.
+
+### Key Takeaways
+- Learned variable-size sliding window techniques.
+- Practiced maintaining a running sum instead of recalculating subarray sums.
+- Learned how to shrink a window while preserving a valid condition.
+- Reinforced optimization from O(n²) brute force to O(n).
+- Improved understanding of minimum-length subarray problems.
+
 ---
 
 # Pattern Coverage
@@ -260,6 +274,7 @@ Completed Permutation in String.
 ## Sliding Window
 - Longest Substring Without Repeating Characters
 - Permutation in String
+- Minimum Size Subarray Sum
 
 ## Sorting
 - Valid Anagram
