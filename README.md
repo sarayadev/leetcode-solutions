@@ -29,9 +29,9 @@ This repository documents my ongoing practice with data structures, algorithms, 
 | Difficulty | Solved |
 |------------|---------|
 | Easy | 11 |
-| Medium | 7 |
+| Medium | 8 |
 | Hard | 0 |
-| **Total** | **18** |
+| **Total** | **19** |
 
 ## Solutions
 
@@ -52,6 +52,7 @@ This repository documents my ongoing practice with data structures, algorithms, 
 | 11 | Container With Most Water | Medium | Two Pointers |
 | 15 | 3Sum | Medium | Sorting, Two Pointers |
 | 49 | Group Anagrams | Medium | Hash Map, Sorting |
+| 209 | Minimum Size Subarray Sum | Medium | Sliding Window |
 | 238 | Product of Array Except Self | Medium | Prefix Product, Suffix Product |
 | 347 | Top K Frequent Elements | Medium | Hash Map, Bucket Sort |
 | 567 | Permutation in String | Medium | Sliding Window, Hash Map |
@@ -59,11 +60,8 @@ This repository documents my ongoing practice with data structures, algorithms, 
 ## Learning Objectives
 
 - Strengthen algorithmic thinking
-
 - Improve code quality and readability
-
 - Develop efficient problem-solving strategies
-
 - Prepare for technical interviews
 
 ## Current Focus
