@@ -28,10 +28,10 @@ This repository documents my ongoing practice with data structures, algorithms, 
 
 | Difficulty | Solved |
 |------------|---------|
-| Easy | 11 |
+| Easy | 12 |
 | Medium | 8 |
 | Hard | 0 |
-| **Total** | **19** |
+| **Total** | **20** |
 
 ## Solutions
 
@@ -40,6 +40,7 @@ This repository documents my ongoing practice with data structures, algorithms, 
 | 1 | Two Sum | Easy | Hash Map |
 | 13 | Roman to Integer | Easy | Hash Map, String Traversal |
 | 14 | Longest Common Prefix | Easy | String Traversal, Prefix Matching |
+| 20 | Valid Parentheses | Easy | Stack |
 | 121 | Best Time to Buy and Sell Stock | Easy | Greedy, One Pass |
 | 125 | Valid Palindrome | Easy | String Manipulation, Two Pointers |
 | 217 | Contains Duplicate | Easy | Hash Set |
@@ -75,10 +76,11 @@ Currently working through foundational patterns including:
 - Greedy Algorithms
 - Two Pointers
 - Sliding Window
+- Stacks
 - Prefix and Suffix Products
 - String Traversal
 - Prefix Matching
 
 ## Next Pattern
 
-- Stacks (Valid Parentheses)
+- Binary Search
