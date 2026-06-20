@@ -46,7 +46,9 @@
   - Pattern: Two Pointers
   - Learned: Using two pointers to check if one string appears in another while maintaining order.
 
-- [ ] Valid Parentheses
+- [x] Valid Parentheses
+  - Pattern: Stack
+  - Learned: Using a stack to track opening brackets and validate matching pairs using Last-In, First-Out (LIFO) ordering.
 
 ---
 
@@ -94,11 +96,11 @@
 
 # Progress Summary
 
-Easy: 11 completed  
+Easy: 12 completed  
 Medium: 8 completed  
 Hard: 0 completed  
 
-Total Problems Solved: 19
+Total Problems Solved: 20
 
 ---
 
@@ -245,6 +247,16 @@ Completed Minimum Size Subarray Sum.
 - Reinforced optimization from O(n²) brute force to O(n).
 - Improved understanding of minimum-length subarray problems.
 
+## June 20, 2026
+Completed Valid Parentheses.
+
+### Key Takeaways
+- Learned how stacks implement Last-In, First-Out (LIFO) behavior.
+- Practiced matching opening and closing brackets efficiently.
+- Used a hash map to validate bracket pairs in O(1) time.
+- Learned how nested structures are naturally solved with stacks.
+- Reinforced single-pass validation techniques.
+
 ---
 
 # Pattern Coverage
@@ -275,6 +287,9 @@ Completed Minimum Size Subarray Sum.
 - Longest Substring Without Repeating Characters
 - Permutation in String
 - Minimum Size Subarray Sum
+
+## Stack
+- Valid Parentheses
 
 ## Sorting
 - Valid Anagram
