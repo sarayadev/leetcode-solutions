@@ -86,6 +86,10 @@
   - Pattern: Sliding Window
   - Learned: Using a variable-size sliding window to find the shortest contiguous subarray that satisfies a target sum while maintaining a running total efficiently.
 
+- [x] Min Stack
+  - Pattern: Stack, Auxiliary Stack
+  - Learned: Using a second stack to track the minimum value at every state, allowing getMin() to run in O(1) time.
+
 ---
 
 ## Hard
@@ -97,10 +101,10 @@
 # Progress Summary
 
 Easy: 12 completed  
-Medium: 8 completed  
+Medium: 9 completed  
 Hard: 0 completed  
 
-Total Problems Solved: 20
+Total Problems Solved: 21
 
 ---
 
@@ -257,6 +261,16 @@ Completed Valid Parentheses.
 - Learned how nested structures are naturally solved with stacks.
 - Reinforced single-pass validation techniques.
 
+## June 21, 2026
+Completed Min Stack.
+
+### Key Takeaways
+- Learned how auxiliary stacks can store additional state information.
+- Practiced maintaining the current minimum value in O(1) time.
+- Reinforced stack operations including push, pop, and top.
+- Learned how extra space can be traded for faster lookups.
+- Improved understanding of stack-based design patterns.
+
 ---
 
 # Pattern Coverage
@@ -290,6 +304,10 @@ Completed Valid Parentheses.
 
 ## Stack
 - Valid Parentheses
+- Min Stack
+
+## Auxiliary Stack
+- Min Stack
 
 ## Sorting
 - Valid Anagram
