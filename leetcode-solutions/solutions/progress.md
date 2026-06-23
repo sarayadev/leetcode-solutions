@@ -90,6 +90,10 @@
   - Pattern: Stack, Auxiliary Stack
   - Learned: Using a second stack to track the minimum value at every state, allowing getMin() to run in O(1) time.
 
+- [x] Daily Temperatures
+  - Pattern: Monotonic Decreasing Stack
+  - Learned: Using a decreasing stack of indices to efficiently find the next warmer temperature and reduce time complexity from O(n²) to O(n).
+
 ---
 
 ## Hard
@@ -101,10 +105,10 @@
 # Progress Summary
 
 Easy: 12 completed  
-Medium: 9 completed  
+Medium: 10 completed  
 Hard: 0 completed  
 
-Total Problems Solved: 21
+Total Problems Solved: 22
 
 ---
 
@@ -271,6 +275,16 @@ Completed Min Stack.
 - Learned how extra space can be traded for faster lookups.
 - Improved understanding of stack-based design patterns.
 
+## June 22, 2026
+Completed Daily Temperatures.
+
+### Key Takeaways
+- Learned how monotonic stacks efficiently solve next greater element problems.
+- Practiced storing indices instead of values when distances between positions are required.
+- Learned how unresolved elements can remain in a stack until a future value provides an answer.
+- Reinforced the concept that each element is pushed and popped at most once.
+- Improved understanding of O(n) stack-based optimization techniques.
+
 ---
 
 # Pattern Coverage
@@ -305,6 +319,10 @@ Completed Min Stack.
 ## Stack
 - Valid Parentheses
 - Min Stack
+- Daily Temperatures
+
+## Monotonic Stack
+- Daily Temperatures
 
 ## Auxiliary Stack
 - Min Stack
