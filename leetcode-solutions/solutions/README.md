@@ -8,30 +8,31 @@ This repository documents my ongoing practice with data structures, algorithms, 
 
 - Python
 
-- Data Structures
-  - Arrays
-  - Hash Maps
-  - Hash Sets
-  - Strings
-  - Stacks
-  - Queues
-  - Trees
-  - Graphs
+### Data Structures
+- Arrays
+- Hash Maps
+- Hash Sets
+- Strings
+- Stacks
+- Monotonic Stacks
+- Queues
+- Trees
+- Graphs
 
-- Algorithm Design
-
+### Algorithm Design
 - Problem Solving
-
 - Time and Space Complexity Analysis
+- Pattern Recognition
+- Optimization Techniques
 
 ## Progress
 
 | Difficulty | Solved |
 |------------|---------|
 | Easy | 12 |
-| Medium | 9 |
+| Medium | 10 |
 | Hard | 0 |
-| **Total** | **21** |
+| **Total** | **22** |
 
 ## Solutions
 
@@ -48,6 +49,7 @@ This repository documents my ongoing practice with data structures, algorithms, 
 | 283 | Move Zeroes | Easy | Two Pointers, In-place |
 | 392 | Is Subsequence | Easy | Two Pointers |
 | 724 | Find Pivot Index | Easy | Prefix Sum |
+| 739 | Daily Temperatures | Medium | Monotonic Decreasing Stack |
 | 1480 | Running Sum of 1D Array | Easy | Prefix Sum |
 | 3 | Longest Substring Without Repeating Characters | Medium | Sliding Window, Hash Set |
 | 11 | Container With Most Water | Medium | Two Pointers |
@@ -65,6 +67,7 @@ This repository documents my ongoing practice with data structures, algorithms, 
 - Improve code quality and readability
 - Develop efficient problem-solving strategies
 - Prepare for technical interviews
+- Build a strong foundation in common algorithmic patterns
 
 ## Current Focus
 
@@ -78,9 +81,64 @@ Currently working through foundational patterns including:
 - Two Pointers
 - Sliding Window
 - Stacks
+- Monotonic Stacks
 - Prefix and Suffix Products
 - String Traversal
 - Prefix Matching
+
+## Pattern Coverage
+
+### Hash Map
+- Two Sum
+- Roman to Integer
+- Group Anagrams
+- Top K Frequent Elements
+- Permutation in String
+
+### Hash Set
+- Contains Duplicate
+- Longest Substring Without Repeating Characters
+
+### Prefix Sum
+- Running Sum of 1D Array
+- Find Pivot Index
+
+### Two Pointers
+- Move Zeroes
+- Valid Palindrome
+- Is Subsequence
+- Container With Most Water
+- 3Sum
+
+### Sliding Window
+- Longest Substring Without Repeating Characters
+- Permutation in String
+- Minimum Size Subarray Sum
+
+### Stack
+- Valid Parentheses
+- Min Stack
+
+### Monotonic Stack
+- Daily Temperatures
+
+### Auxiliary Stack
+- Min Stack
+
+### Sorting
+- Valid Anagram
+- Group Anagrams
+- 3Sum
+
+### Greedy
+- Best Time to Buy and Sell Stock
+
+### Prefix/Suffix
+- Product of Array Except Self
+
+### String Traversal
+- Roman to Integer
+- Longest Common Prefix
 
 ## Next Pattern
 
