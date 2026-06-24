@@ -20,6 +20,7 @@ This repository documents my ongoing practice with data structures, algorithms, 
 - Queues
 - Trees
 - Graphs
+- Linked Lists
 
 ### Algorithm Design
 - Problem Solving
@@ -33,10 +34,10 @@ This repository documents my ongoing practice with data structures, algorithms, 
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 12     |
-| Medium     | 11     |
-| Hard       | 0      |
-| **Total**  | **23** |
+| Easy | 13 |
+| Medium | 11 |
+| Hard | 0 |
+| **Total** | **24** |
 
 ---
 
@@ -65,6 +66,7 @@ This repository documents my ongoing practice with data structures, algorithms, 
 - Day 21 → Permutation in String
 - Day 22 → Daily Temperatures
 - Day 23 → Reverse Linked List
+- Day 24 → Merge Two Sorted Lists
 
 ---
 
@@ -73,38 +75,39 @@ This repository documents my ongoing practice with data structures, algorithms, 
 | # | Problem | Difficulty | Pattern |
 |---|---------|------------|----------|
 | 1 | Two Sum | Easy | Hash Map |
+| 3 | Longest Substring Without Repeating Characters | Medium | Sliding Window, Hash Set |
+| 11 | Container With Most Water | Medium | Two Pointers |
 | 13 | Roman to Integer | Easy | Hash Map, String Traversal |
 | 14 | Longest Common Prefix | Easy | String Traversal, Prefix Matching |
+| 15 | 3Sum | Medium | Sorting, Two Pointers |
 | 20 | Valid Parentheses | Easy | Stack |
+| 21 | Merge Two Sorted Lists | Easy | Linked List, Two Pointers |
+| 49 | Group Anagrams | Medium | Hash Map, Sorting |
 | 121 | Best Time to Buy and Sell Stock | Easy | Greedy, One Pass |
 | 125 | Valid Palindrome | Easy | String Manipulation, Two Pointers |
+| 155 | Min Stack | Medium | Stack |
+| 206 | Reverse Linked List | Easy | Linked List Manipulation |
+| 209 | Minimum Size Subarray Sum | Medium | Sliding Window |
 | 217 | Contains Duplicate | Easy | Hash Set |
+| 238 | Product of Array Except Self | Medium | Prefix / Suffix Product |
 | 242 | Valid Anagram | Easy | Sorting |
 | 283 | Move Zeroes | Easy | Two Pointers, In-place |
+| 347 | Top K Frequent Elements | Medium | Hash Map, Bucket Sort |
 | 392 | Is Subsequence | Easy | Two Pointers |
+| 567 | Permutation in String | Medium | Sliding Window, Hash Map |
 | 724 | Find Pivot Index | Easy | Prefix Sum |
 | 739 | Daily Temperatures | Medium | Monotonic Stack |
 | 1480 | Running Sum of 1D Array | Easy | Prefix Sum |
-| 3 | Longest Substring Without Repeating Characters | Medium | Sliding Window, Hash Set |
-| 11 | Container With Most Water | Medium | Two Pointers |
-| 15 | 3Sum | Medium | Sorting, Two Pointers |
-| 49 | Group Anagrams | Medium | Hash Map, Sorting |
-| 155 | Min Stack | Medium | Stack |
-| 209 | Minimum Size Subarray Sum | Medium | Sliding Window |
-| 238 | Product of Array Except Self | Medium | Prefix / Suffix Product |
-| 347 | Top K Frequent Elements | Medium | Hash Map, Bucket Sort |
-| 567 | Permutation in String | Medium | Sliding Window, Hash Map |
-| 206 | Reverse Linked List | Easy | Linked List Manipulation |
 
 ---
 
 ## Learning Objectives
 
-- Strengthen algorithmic thinking  
-- Improve code quality and readability  
-- Develop efficient problem-solving strategies  
-- Prepare for technical interviews  
-- Build a strong foundation in common algorithm patterns  
+- Strengthen algorithmic thinking
+- Improve code quality and readability
+- Develop efficient problem-solving strategies
+- Prepare for technical interviews
+- Build a strong foundation in common algorithm patterns
 
 ---
 
@@ -112,19 +115,19 @@ This repository documents my ongoing practice with data structures, algorithms, 
 
 Currently working through foundational patterns:
 
-- Hash Maps  
-- Hash Sets  
-- Sorting  
-- Prefix Sums  
-- Greedy Algorithms  
-- Two Pointers  
-- Sliding Window  
-- Stacks  
-- Monotonic Stacks  
-- Linked List Manipulation  
-- Prefix and Suffix Products  
-- String Traversal  
-- Prefix Matching  
+- Hash Maps
+- Hash Sets
+- Sorting
+- Prefix Sums
+- Greedy Algorithms
+- Two Pointers
+- Sliding Window
+- Stacks
+- Monotonic Stacks
+- Linked List Manipulation
+- Prefix and Suffix Products
+- String Traversal
+- Prefix Matching
 
 ---
 
@@ -151,6 +154,7 @@ Currently working through foundational patterns:
 - Is Subsequence
 - Container With Most Water
 - 3Sum
+- Merge Two Sorted Lists
 
 ### Sliding Window
 - Longest Substring Without Repeating Characters
@@ -166,6 +170,7 @@ Currently working through foundational patterns:
 
 ### Linked List
 - Reverse Linked List
+- Merge Two Sorted Lists
 
 ### Sorting
 - Valid Anagram
