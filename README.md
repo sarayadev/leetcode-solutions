@@ -30,7 +30,7 @@ A collection of LeetCode solutions implemented in Python as part of my software 
 - Linked List Manipulation
 - Fast & Slow Pointers
 - Breadth-First Search (BFS)
-- Depth-First Search (DFS)
+- Depth-First Search (DFS) 
 - Recursion
 
 ---
