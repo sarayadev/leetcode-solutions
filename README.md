@@ -17,6 +17,7 @@ A collection of LeetCode solutions implemented in Python as part of my software 
 - Linked Lists
 - Trees
 - Graphs
+- Heaps (Priority Queues)
 
 ### Algorithms & Patterns
 - Hashing
@@ -30,8 +31,9 @@ A collection of LeetCode solutions implemented in Python as part of my software 
 - Linked List Manipulation
 - Fast & Slow Pointers
 - Breadth-First Search (BFS)
-- Depth-First Search (DFS) 
+- Depth-First Search (DFS)
 - Recursion
+- Heap / Priority Queue
 
 ---
 
@@ -40,9 +42,9 @@ A collection of LeetCode solutions implemented in Python as part of my software 
 | Difficulty | Solved |
 |------------|--------|
 | Easy | 18 |
-| Medium | 11 |
+| Medium | 13 |
 | Hard | 0 |
-| **Total** | **29** |
+| **Total** | **31** |
 
 ---
 
@@ -57,8 +59,9 @@ A collection of LeetCode solutions implemented in Python as part of my software 
 | Monotonic Stack | 1 |
 | Prefix Sum | 2 |
 | Linked List | 2 |
-| Trees | 4 |
+| Trees | 5 |
 | BFS | 1 |
+| Heap / Priority Queue | 2 |
 
 ---
 
@@ -78,3 +81,19 @@ A collection of LeetCode solutions implemented in Python as part of my software 
 - Build interview-ready problem-solving skills
 - Develop mastery of common coding interview patterns
 - Consistently solve and document LeetCode problems
+- Reach 100+ solved problems with detailed explanations
+
+---
+
+## Repository Purpose
+
+This repository serves as a structured record of my algorithm and data structure practice. Each solution includes:
+
+- Problem breakdown
+- Key concepts and patterns
+- Step-by-step approach
+- Python implementation
+- Dry run examples
+- Time and space complexity analysis
+
+The goal is not only to solve problems but also to build a deeper understanding of common interview patterns and write clean, maintainable solutions.
